@@ -1,0 +1,15 @@
+=== create user ===
+
+full name,
+username,
+number,
+email,
+password
+profile picture,
+
+=== log in ===
+
+email,
+password
+
+
