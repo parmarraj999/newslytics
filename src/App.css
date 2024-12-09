@@ -1,20 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body{
-  background: rgb(243, 243, 243);
+  font-family: "Nunito", sans-serif;
 }
 .App {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   height: 100vh;
-  font-family: "Roboto", system-ui;
+  background: #202022;
+  display: grid;
+  grid-template-columns: .7fr 11.3fr;
 }
-@media screen and (max-width:765px) {
-  .App{
-    width: 95%;
-  }
+.app_layout_container{
+  width: 100%;
+  padding: .5rem;
 }

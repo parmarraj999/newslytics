@@ -1,0 +1,10 @@
+.message_container{
+    width: 100%;
+    height: 100%;
+    border: 1px solid grey;
+}
+.message_header{
+    width: 100%;
+    height: 60px;
+    border-bottom:1px solid grey ;
+}
